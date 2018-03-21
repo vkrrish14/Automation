@@ -1,0 +1,99 @@
+﻿<repository
+id="788241cb-adc5-4787-acf0-39da766f8629"
+name="my_sample_testsuiteRepository"
+rxversion="8.0">
+	<codegen
+	classname="my_sample_testsuiteRepository"
+	namespace="my_sample_testsuite">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="40b2f5e2-9ffb-4169-8a12-6cc210e99ee3"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="e9b3f319-229d-40c2-91fe-31c08c681527"
+		isrooted="True"
+		name="MyStore"
+		refpath="/dom[7]"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="4e8430f4-0c48-49c5-94cb-d456eebfdd03"
+			name="LogInToYourCustomerAccount"
+			refimgid="f5581a9f-db57-4f89-8375-d1a298a5561c"
+			refpath="/dom[7]//header[#'header']/div[2]/div/div/nav/div[1]/a[@innertext='Sign in']"
+			searchtimeout="30000ms">
+				/dom[7]//header[#'header']/div[2]//nav/?/?/a[@innertext='Sign in']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="8fc936af-d147-4118-8874-bf4cc464f7ae"
+			name="Email"
+			refimgid="d990f05a-7eb5-4f22-9e0c-d438462fe86f"
+			refpath="/dom[7]//input[#'email']"
+			searchtimeout="30000ms">
+				/dom[7]//input[#'email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="3ae02310-bfcf-418e-a3b9-07d4544379fe"
+			name="Passwd"
+			refimgid="22ae6171-0d2e-4a96-9c79-9d54a2a8e382"
+			refpath="/dom[7]//input[#'passwd']"
+			searchtimeout="30000ms">
+				/dom[7]//input[#'passwd']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="11169937-de4b-4d7a-9d8d-b69329c71aa8"
+			name="SpanTagSignIn"
+			refimgid="1107a00a-b664-4400-af23-6569318adf51"
+			refpath="/dom[7]//button[#'SubmitLogin']/span[@innertext='Sign in']"
+			searchtimeout="30000ms">
+				/dom[7]//button[#'SubmitLogin']/span[@innertext='Sign in']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f4cfd0ca-91ad-4cd9-a1ea-26a1e983da72"
+			name="LogMeOut"
+			refimgid="72fce3ee-6ef2-4eb4-83d6-82869720d938"
+			refpath="/dom[@domain='automationpractice.com' and @caption='My account - My Store']//header[#'header']/div[2]/div/div/nav/div[2]/a[@innertext='Sign out']"
+			searchtimeout="30000ms">
+				/dom[7]//header[#'header']//nav/div[2]/a[@innertext='Sign out']
+			</item>
+			<basepath>
+				/dom[7]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

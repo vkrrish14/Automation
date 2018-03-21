@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="24ad12e5-948d-4619-a952-8234fc07f144"
+mode="Global"
+rxversion="8.0">
+	<name>
+		Recording2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording2"
+	namespace="my_sample_testsuite">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="788241cb-adc5-4787-acf0-39da766f8629"
+	name="my_sample_testsuiteRepository"
+	relativepath="my_sample_testsuiteRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="my_sample_testsuiteRepository"
+		namespace="my_sample_testsuite">
+		</codegen>
+		<rootfolder
+		id="40b2f5e2-9ffb-4169-8a12-6cc210e99ee3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
